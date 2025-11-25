@@ -1,10 +1,6 @@
-# PatchEvent
+PatchEvent Store Data Forecasting
 
-PatchEvent is a forecasting framework that extends PatchTST by integrating semantic embeddings of real-world event descriptions into time series patches. The goal is to improve multivariate forecasting (e.g., on the Favorita dataset) during event-driven periods like holidays, oil shocks, or promotions.
-
-## 📁 Project Structure
-
-```bash
+```text
 PatchEvent/
 ├── data/
 │   ├── raw/                  # Original CSVs (train.csv, oil.csv, holidays_events.csv, etc.)
