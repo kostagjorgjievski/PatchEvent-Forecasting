@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Mac system files
+.DS_Store
+
+# Parquet or cache files
+*.parquet
+*.pkl
+*.feather
+*.joblib
+
+# Logs and temporary files
+*.log
+*.tmp
+*.out
+
+# VS Code and PyCharm
+.vscode/
+.idea/
+
+# Configs / secrets
+*.env
+.env.*
+
+# Output reports and local runs
+data/processed/
+data/interim/
+reports/logs/
+reports/figures/
+experiments/*/logs/
+experiments/*/*.pth
